@@ -21,11 +21,23 @@ void reed_ekidan2() {
   printf("We learned that git and GitHub are amazing, powerful tools!\n");
 }
 
+void dbravo4(){
+    printf("Diego Bravo\n");
+    printf("dbravo4");
+    printf("I learned how I could use git through a terminal (I would just use a GUI version control in VSCode)\n");
+    printf("I also learned about config and what commit means.\n");
+    for (int i = 0; i < 20; ++i) {
+        printf(">:3 ");
+    }
+    printf("\n");
+}
+
 int main()
 {
     printf("This code has been created by the students of CS 211, Fall 2022!\n\n");
     
     reed_ekidan2();
+    dbravo4();
     
     return 0;
 }
